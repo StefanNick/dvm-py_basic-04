@@ -47,7 +47,7 @@ monro_green_overlay = monro_green.crop(
 
 
 monro_final_overlay = Image.merge(
-    "RGB", (monro_red_overlay, monro_blue_overlay, monro_green_overlay)
+    "RGB", (monro_red_overlay, monro_green_overlay, monro_blue_overlay)
 )
 monro_final_overlay.save("monro_final_overlay.jpg")
 
